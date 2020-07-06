@@ -7,7 +7,7 @@
 *								
 * More detailed description of this programm could 	
 * be found in the Chapter 5 of the original Doctoral Thesis, available
-* at http://www.demog.berkeley.edu/~eddieh/AppliedDemographyToolbox/LTEstSmooth/Hulikova_Doctoral_Thesis_CH5_SAS_MACRO.pdf
+* at https://github.com/AppliedDemogToolbox/Hulikova_LTEstSmooth/raw/master/Hulikova_Doctoral_Thesis_CH5_SAS_MACRO.pdf
 * Please, use it if you need more detailed 		
 * instructions and information.				
 *					
@@ -16,8 +16,8 @@
 * Notes: There is no warranty for this script or the associated 
 * macro and data. 
 * The 32 bit version of this script, with link to the 32 bit macro, is available at
-* http://www.demog.berkeley.edu/~eddieh/AppliedDemographyToolbox/LTEstSmooth/SMOOTH32.sas
-* (Posted July 2012.)
+* https://raw.githubusercontent.com/AppliedDemogToolbox/Hulikova_LTEstSmooth/master/SMOOTH63.sas
+* (Posted July 2012 (updated July 2020).)
 *
 *********************************************************
 *						
@@ -44,8 +44,7 @@
 *Macro settings:										;
 *Please fill the address where the file "macro_store_smooth_64" was saved and 
 submit the two rows (the code could be also submited as a whole);
-*(Macro is available at the following address: 
-http://www.demog.berkeley.edu/~eddieh/AppliedDemographyToolbox/LTEstSmooth/macro_store_smooth_64/sasmacr.sas7bcat);
+*(Macro is available at the following address: https://github.com/AppliedDemogToolbox/Hulikova_LTEstSmooth/raw/master/macro_store_smooth_64/sasmacr.sas7bcat);
 libname smooth64 'g:\SAS\macro_store_smooth_64\';
 options mstored mautosource spool SASMSTORE=smooth64;
 
@@ -56,8 +55,7 @@ ods html path="g:\SAS\pictures_store\";
 ods graphics on;
 
 *Please define the input file;
-*(Data is available at the following address: 
-http://www.demog.berkeley.edu/~eddieh/AppliedDemographyToolbox/LTEstSmooth/data_example/FRA_F.xls);
+*(Data is available at the following address: https://github.com/AppliedDemogToolbox/Hulikova_LTEstSmooth/raw/master/data_example/FRA_F.xls);
 %let adress_input="g:\SAS\data_example\FRA_F.xls";
 *Please define the outputfile;
 %let adress_output="g:\SAS\output_store\FRA_F_out.xls";
