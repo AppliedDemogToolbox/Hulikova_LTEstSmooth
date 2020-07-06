@@ -16,7 +16,7 @@
 * Notes: There is no warranty for this script or the associated 
 * macro and data. 
 * The 32 bit version of this script, with link to the 32 bit macro, is available at
-* https://raw.githubusercontent.com/AppliedDemogToolbox/Hulikova_LTEstSmooth/master/SMOOTH63.sas
+* https://raw.githubusercontent.com/AppliedDemogToolbox/Hulikova_LTEstSmooth/master/SMOOTH32.sas
 * (Posted July 2012 (updated July 2020).)
 *
 *********************************************************
